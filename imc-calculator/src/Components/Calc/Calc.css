@@ -1,0 +1,18 @@
+.calcStyle {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.calcStyle button {
+    width: 80px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #282c34;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #202327;
+}
