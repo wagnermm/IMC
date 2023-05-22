@@ -3,6 +3,7 @@
     background-color: #282c34;
     color: #fff;
     border: 3px solid #6b7f86;
+    border-collapse: collapse;
 }
 
 tr, td {
