@@ -10,5 +10,7 @@
 - React.JS
 
 ## Execução
-- Na raiz do projeto executar o comando:
+- Na raiz do projeto, executar o comando:
+```
 npm start
+```
