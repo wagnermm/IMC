@@ -24,11 +24,11 @@ function Calc() {
                 <input type="number" placeholder="Digite a sua altura" value={height} onChange={function(ent) {
                     setHeight(ent.target.value);
                 }}/>
-                <div>
-                    <button onClick={calculateImc}>calcular</button>
-                    <div><p>Resultado: {result}</p></div>
-                </div> 
             </div>
+            <div>
+                <button onClick={calculateImc}>calcular</button>
+                <div><p>Resultado: {result}</p></div>
+            </div> 
         </div>
     )
 }
