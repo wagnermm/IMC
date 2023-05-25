@@ -7,9 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Calculadora IMC</h2>
         <Calc/>
-        <h2>Tabela IMC</h2>
         <Table/>
       </header>
     </div>

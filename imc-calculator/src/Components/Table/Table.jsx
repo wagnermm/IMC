@@ -3,7 +3,8 @@ import './Table.css'
 
 function Table() {
     return(
-        <div>
+        <div className="table">
+            <h2>Tabela IMC</h2>
             <table className="tableStyle">
                 <thead>
                     <tr>

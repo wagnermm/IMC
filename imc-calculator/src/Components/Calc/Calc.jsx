@@ -12,18 +12,21 @@ function Calc() {
     }
 
     return (
-        <div>
-            <div className="weightField">
-                <label>Peso</label>
-                <input type="number" placeholder="Digite o seu peso" value={weight} onChange={function(ent) {
-                    setWeight(ent.target.value);
-                }}/>
-            </div>
-            <div className="heightField">
-                <label>Altura</label>
-                <input type="number" placeholder="Digite a sua altura" value={height} onChange={function(ent) {
-                    setHeight(ent.target.value);
-                }}/>
+        <div className="calculator">
+            <h2>Calculadora IMC</h2>
+            <div className="measures">
+                <div>
+                    <label>Peso</label>
+                    <input type="number" placeholder="Digite o seu peso" value={weight} onChange={function(ent) {
+                        setWeight(ent.target.value);
+                    }}/>
+                </div>
+                <div>
+                    <label>Altura</label>
+                    <input type="number" placeholder="Digite a sua altura" value={height} onChange={function(ent) {
+                        setHeight(ent.target.value);
+                    }}/>
+                </div>
             </div>
             <div>
                 <button onClick={calculateImc}>calcular</button>
