@@ -1,5 +1,5 @@
 import Table from './Components/Table/Table';
-import Calc from './Components/Calc/Calc'
+import Calc from './Components/Calc/Calc';
 
 import './App.css';
 

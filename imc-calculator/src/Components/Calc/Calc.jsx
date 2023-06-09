@@ -1,5 +1,4 @@
 import React,{useState} from "react";
-
 import './Calc.css';
 
 function Calc() {
@@ -29,7 +28,7 @@ function Calc() {
                 </div>
             </div>
             <div>
-                <button onClick={calculateImc}>calcular</button>
+                <button onClick={calculateImc} className="btnCalc">calcular</button>
                 <div><p>Resultado: {result}</p></div>
             </div> 
         </div>

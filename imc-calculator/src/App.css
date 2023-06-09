@@ -1,12 +1,11 @@
 .App {
-  background-color: #fff;
   text-align: center;
 }
 
 .App-header {
   margin-top: 8rem;
   display: flex;
-  flex-wrap: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -17,7 +16,7 @@ h2 {
   margin: 5px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .App-header {
     display: flex;
     flex-direction: column;

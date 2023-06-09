@@ -1,11 +1,16 @@
-import React from "react";
-import './Table.css'
+import { useState } from 'react';
+import './Table.css';
 
 function Table() {
+    const [table, setTable] = useState("tableStyle__hide");
+    const showTable=()=> {
+        table === 'tableStyle__hide' ? setTable('tableStyle__visible') : setTable('tableStyle__hide')
+    }
     return(
         <div className="table">
             <h2>Tabela IMC</h2>
-            <table className="tableStyle">
+            <button onClick={showTable} className="btnTable">Click</button>
+            <table className={table}>
                 <thead>
                     <tr>
                         <th>
