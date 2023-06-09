@@ -1,6 +1,6 @@
 {
   "name": "imc-calculator",
-  "homepage": "https://wagnermm.github.io/IMC/tree/main/imc-calculator/",
+  "homepage": "https://wagnermm.github.io/IMC/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
