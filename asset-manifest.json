@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/IMC/tree/main/imc-calculator/static/css/main.56a8e083.css",
-    "main.js": "/IMC/tree/main/imc-calculator/static/js/main.a65a9adf.js",
-    "static/js/787.0465696c.chunk.js": "/IMC/tree/main/imc-calculator/static/js/787.0465696c.chunk.js",
-    "index.html": "/IMC/tree/main/imc-calculator/index.html",
-    "main.56a8e083.css.map": "/IMC/tree/main/imc-calculator/static/css/main.56a8e083.css.map",
-    "main.a65a9adf.js.map": "/IMC/tree/main/imc-calculator/static/js/main.a65a9adf.js.map",
-    "787.0465696c.chunk.js.map": "/IMC/tree/main/imc-calculator/static/js/787.0465696c.chunk.js.map"
+    "main.css": "/IMC/static/css/main.56a8e083.css",
+    "main.js": "/IMC/static/js/main.a43912c3.js",
+    "static/js/787.0465696c.chunk.js": "/IMC/static/js/787.0465696c.chunk.js",
+    "index.html": "/IMC/index.html",
+    "main.56a8e083.css.map": "/IMC/static/css/main.56a8e083.css.map",
+    "main.a43912c3.js.map": "/IMC/static/js/main.a43912c3.js.map",
+    "787.0465696c.chunk.js.map": "/IMC/static/js/787.0465696c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56a8e083.css",
-    "static/js/main.a65a9adf.js"
+    "static/js/main.a43912c3.js"
   ]
 }
