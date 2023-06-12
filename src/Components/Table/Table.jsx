@@ -9,7 +9,7 @@ function Table() {
     return(
         <div className="table">
             <h2>Tabela IMC</h2>
-            <button onClick={showTable} className="btnTable">Click</button>
+            <button onClick={showTable} className="btnTable">Ver</button>
             <table className={table}>
                 <thead>
                     <tr>

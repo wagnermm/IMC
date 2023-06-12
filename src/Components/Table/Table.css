@@ -1,13 +1,13 @@
 .table {
     position: absolute;
     color: #fff;
-    top: 20%;
-    left: 60vw;
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
 }
 
 .btnTable {
@@ -40,12 +40,4 @@ tr, td {
 
 td:hover {
     background-color: #112238;
-}
-
-@media (max-width: 900px) {
-    .table {
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
 }
